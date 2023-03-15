@@ -8,3 +8,4 @@
 6- git log <!--Lista el estado de los commit -->
 7- git commit --amend <!--para editar el mensaje del ultimo commit-->
 8- git checkout -b rama-heroes <!--Para crear una nueva rama --> 
+9- git branch <!--Para listar las ramas-->
