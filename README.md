@@ -1,10 +1,11 @@
 # Comandos basicos de Git
 
-[--Inicializar el repositorio --]
+.[--Inicializar el repositorio --]
 1. git init   
-[--Preparar para la captura --]
-2. git add .  
-3. git reset . --Para editar antes de guardar despues de haber ejecutado git add--
+.[--Preparar para la captura --]
+2. git add .
+.[--Para editar antes de guardar despues de haber ejecutado git add-]  
+3. git reset . -
 4. git commit --Capturar los archivos del repositorio --
 5. git checkout -- . --Vuelve a recontruir hasta la ultima vez que se guardo --
 6. git log --Lista el estado de los commit --
