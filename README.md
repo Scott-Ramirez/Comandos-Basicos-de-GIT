@@ -9,4 +9,6 @@
 7- git commit --amend <!--para editar el mensaje del ultimo commit-->
 8- git checkout -b rama-heroes <!--Para crear una nueva rama --> 
 9- git checkout master <!--Para cambiar de ramas -->
-01- git branch -d rama-heroes <!--Para eliminar una rama-->
+10- git branch -d rama-heroes <!--Para eliminar una rama-->
+11- git push <!--Para enviar todo el contenido a ggithub-->
+12. git commit -am <!---->
