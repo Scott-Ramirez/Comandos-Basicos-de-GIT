@@ -34,3 +34,19 @@ Una rama representa una línea independiente de desarrollo. Las ramas sirven com
 El flujo de trabajo de rama de función se basa en el flujo de trabajo centralizado al encapsular las funciones nuevas en ramas específicas. Esto permite usar solicitudes de incorporación de cambios para comentar los cambios antes de integrarlos en el proyecto oficial.
 # CREAR UNA BIFURCACION 
 En lugar de usar un repositorio de servidor único que haga de código base "central", la bifurcación ofrece a todos los desarrolladores un repositorio de servidor. Esto significa que cada contribuidor no tiene uno, sino dos repositorios de Git: uno privado local y uno público de servidor.
+# FLUJO DE TRABAJO DE GITFLOW
+El flujo de trabajo de Gitflow optimiza el ciclo de publicación mediante el uso de ramas aisladas para el desarrollo de funciones, la preparación de la publicación y el mantenimiento. Su estricto modelo de ramificación también aporta una estructura muy necesaria para los proyectos más grandes.
+# HEAD
+Es la forma en la que Git hace referencia a la instantánea actual. Internamente, el comando git checkout simplemente actualiza el HEAD para que apunte a la rama o la confirmación especificada. Cuando apunta a una rama, Git no objeta nada, pero cuando cambias a una confirmación, pasa al estado "detached HEAD".
+# HOOK
+Es un script que se ejecuta automáticamente cada vez que se produce un evento en particular en un repositorio de Git. Los hooks permiten personalizar el comportamiento interno de Git y desencadenan acciones personalizables en puntos clave del ciclo de vida del desarrollo.
+# PULL REQUEST
+Las solicitudes de incorporación de cambios son una función que facilita la colaboración entre desarrolladores que usan Bitbucket. Ofrecen una interfaz web intuitiva para debatir los cambios propuestos antes de integrarlos en el proyecto oficial.
+# REPOSITORIOS
+Conjunto de confirmaciones, ramas y etiquetas para identificar las confirmaciones.
+# ETIQUETA
+Referencia que suele utilizarse para marcar un punto en concreto en la cadena de confirmación. A diferencia de lo que ocurre con head, el comando commit no actualiza las etiquetas.
+# CONTROL DE VERSIONES 
+Sistema que registra los cambios en un archivo o conjunto de archivos a lo largo del tiempo para que se puedan recuperar versiones específicas más adelante.
+# ARBOL DE TRABAJO 
+El árbol de archivos extraídos, que normalmente incluye el contenido del árbol de HEAD commit y cualquier cambio local que hayas hecho, pero que no hayas confirmado aún.
