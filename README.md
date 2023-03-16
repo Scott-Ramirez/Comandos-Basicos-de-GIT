@@ -13,5 +13,7 @@
 10. git branch -d rama-heroes   <!--Para eliminar una rama-->
 11. git push                    <!--Para enviar todo el contenido a github-->
 12. git commit -am              <!--Para acelerar el proceso de guardar cambios-->
-
-# Otros Comandos 
+13. git clone                   <!--Clona un repositorio existente-->
+14. git config                  <!--Establece el nombre del autor, el correo y demas parametros que git utiliza por defecto-->
+15. git status                  <!--Enumera todos los archivos que deben ser confirmados-->
+16. git diff                    <!--Muestra las diferencias de archivo que aun no se ponen en escena-->
