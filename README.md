@@ -30,5 +30,5 @@
 Una rama representa una línea independiente de desarrollo. Las ramas sirven como una abstracción de los procesos de edición, ensayo y confirmación que se tratan en Principios básicos de Git, el primer módulo de esta serie. Puedes concebirlas como una forma de solicitar un nuevo directorio de trabajo, un nuevo entorno de ensayo y un nuevo historial de proyecto. Las nuevas confirmaciones se registran en el historial de la rama actual, lo que crea una bifurcación en el historial del proyecto.
 # FLUJO DE TRABAJO CENTRALIZADO
 Una rama representa una línea independiente de desarrollo. Las ramas sirven como una abstracción de los procesos de edición, ensayo y confirmación que se tratan en Principios básicos de Git, el primer módulo de esta serie. Puedes concebirlas como una forma de solicitar un nuevo directorio de trabajo, un nuevo entorno de ensayo y un nuevo historial de proyecto. Las nuevas confirmaciones se registran en el historial de la rama actual, lo que crea una bifurcación en el historial del proyecto.
-# Flujo De Trabajo De Rama De Función
+# FLUJO DE TRABAJO DE RAMA DE FUNCION
 El flujo de trabajo de rama de función se basa en el flujo de trabajo centralizado al encapsular las funciones nuevas en ramas específicas. Esto permite usar solicitudes de incorporación de cambios para comentar los cambios antes de integrarlos en el proyecto oficial.
