@@ -26,6 +26,7 @@
 23. git reflog                  <!--Git realiza el seguimiento de las actualizaciones en el extremo de las ramas mediante un mecanismo llamado registro de referencia o reflog. Esto permite volver a los conjuntos de cambios aunque no se haga referencia a ellos en ninguna rama o etiqueta-->
 24. git remote                  <!--Es un comando útil para administrar conexiones remotas. En lugar de pasar la URL completa a los comandos fetch, pull y push, permite usar un atajo más significativo-->
 25. git revert                  <!--Permite deshacer una instantánea confirmada. Si descubres una confirmación errónea, revertirla es una forma fácil y segura de eliminarla por completo del código base-->
+26. git log --graph             <!--Para ver el historial de forma detallada-->
 # RAMA
 Una rama representa una línea independiente de desarrollo. Las ramas sirven como una abstracción de los procesos de edición, ensayo y confirmación que se tratan en Principios básicos de Git, el primer módulo de esta serie. Puedes concebirlas como una forma de solicitar un nuevo directorio de trabajo, un nuevo entorno de ensayo y un nuevo historial de proyecto. Las nuevas confirmaciones se registran en el historial de la rama actual, lo que crea una bifurcación en el historial del proyecto.
 # FLUJO DE TRABAJO CENTRALIZADO
